@@ -270,7 +270,7 @@ let styles = StyleSheet.create({
 	up: {
 		height: 90,
 		overflow: 'hidden',
-		background: "transparent",
+		backgroundColor: "transparent", // To remove shadow effect in android
 	},
 	upView: {
 		justifyContent: 'flex-start',
@@ -290,7 +290,7 @@ let styles = StyleSheet.create({
 		height: 40,
 		width: width,
 		overflow: 'hidden',
-		background: "transparent",
+		backgroundColor: "transparent", // To remove shadow effect in android
 		borderColor: '#aaa',
 		borderTopWidth: 1/ratio,
 		borderBottomWidth: 1/ratio
@@ -312,11 +312,11 @@ let styles = StyleSheet.create({
 	down: {
 		height: 90,
 		overflow: 'hidden',
-		background: "transparent",
+		backgroundColor: "transparent", // To remove shadow effect in android
 	},
 	downView: {
 		overflow: 'hidden',
-		background: "transparent",
+		backgroundColor: "transparent",  // To remove shadow effect in android
 		justifyContent: 'flex-start',
 		alignItems: 'center'
 	},
